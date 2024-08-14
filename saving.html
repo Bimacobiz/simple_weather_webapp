@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Daily Money Saver</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+<header>
+  <h1>Daily Money Saver</h1>
+</header>
+<form id="savingsForm">
+  <br><label for="initialAmount">Enter the amount you want to save daily:</label><br>
+  <input type="number" id="initialAmount" min="0" step="0.01" required>
+  <button type="submit">Start Saving</button>
+</form>
+<div id="savingsDisplay">
+  <!-- Savings will be displayed here -->
+</div>
+<button id="resetButton">Reset Savings</button>
+<button id="projectionButton">See Yearly Savings Projection</button>
+<footer>
+  <p>&copy; 2024 Daily Money Saver</p>
+</footer>
+<script src="script.js" defer></script>
+</body>
+</html>
